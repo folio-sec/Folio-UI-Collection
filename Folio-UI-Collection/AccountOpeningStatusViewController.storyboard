@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ndF-lT-eLc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="AG6-rg-e9C">
+            <objects>
+                <viewController id="ndF-lT-eLc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x5d-Ig-aeX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fqh-Qc-vZk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accountOpen" translatesAutoresizingMaskIntoConstraints="NO" id="YA2-D2-tPP">
+                                        <rect key="frame" x="97.5" y="16" width="180" height="140"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申し込みは最短5分で完了します" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpV-a2-7d9" customClass="Label" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="172" width="343" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="各項目は進行状況が保持されるため、中断しても途中から再開できます。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4F8-MK-5qI" customClass="Label" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="202" width="343" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.50980395079999996" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="nzZ-tc-ybs">
+                                        <rect key="frame" x="16" y="255" width="343" height="273"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f40-vC-vDA">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="81"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="za0-Kl-k8r" customClass="SubmissionStatusButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="48"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" priority="999" constant="48" id="K4c-Kf-M9a"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                        <state key="normal" title="必要項目の再入力">
+                                                            <color key="titleColor" red="0.25490197539999998" green="0.2588235438" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9vF-vT-KvC" userLabel="Separator">
+                                                        <rect key="frame" x="0.0" y="72" width="343" height="1"/>
+                                                        <color key="backgroundColor" red="0.85490196939999996" green="0.85882353779999998" blue="0.89019608500000003" alpha="1" colorSpace="deviceRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" priority="999" constant="1" id="TUO-q2-H9C"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="za0-Kl-k8r" firstAttribute="top" secondItem="f40-vC-vDA" secondAttribute="top" id="2r1-Hq-LDr"/>
+                                                    <constraint firstItem="za0-Kl-k8r" firstAttribute="leading" secondItem="f40-vC-vDA" secondAttribute="leading" id="7kF-l1-y2w"/>
+                                                    <constraint firstAttribute="trailing" secondItem="9vF-vT-KvC" secondAttribute="trailing" id="Apw-Si-WsY"/>
+                                                    <constraint firstAttribute="bottom" secondItem="9vF-vT-KvC" secondAttribute="bottom" constant="8" id="Qms-dv-t2K"/>
+                                                    <constraint firstItem="9vF-vT-KvC" firstAttribute="top" secondItem="za0-Kl-k8r" secondAttribute="bottom" constant="24" id="XiX-pG-8rq"/>
+                                                    <constraint firstAttribute="trailing" secondItem="za0-Kl-k8r" secondAttribute="trailing" id="cDg-Ik-S3i"/>
+                                                    <constraint firstItem="9vF-vT-KvC" firstAttribute="leading" secondItem="f40-vC-vDA" secondAttribute="leading" id="dgc-Sg-kgU"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edL-Ag-XCh" customClass="SubmissionStatusButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="97" width="343" height="48"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="x6g-kR-VBB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <state key="normal" title="お客様情報の入力">
+                                                    <color key="titleColor" red="0.25490197539999998" green="0.2588235438" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxm-5y-lVT" customClass="SubmissionStatusButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="161" width="343" height="48"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="DMJ-PY-ujj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <state key="normal" title="本人確認書類のアップロード">
+                                                    <color key="titleColor" red="0.25490197539999998" green="0.2588235438" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpF-SF-inw" customClass="SubmissionStatusButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="225" width="343" height="48"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="uvb-6G-hMW"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <state key="normal" title="取引設定">
+                                                    <color key="titleColor" red="0.25490197539999998" green="0.2588235438" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nzZ-tc-ybs" firstAttribute="leading" secondItem="fqh-Qc-vZk" secondAttribute="leading" constant="16" id="4Mx-xx-H8S"/>
+                                    <constraint firstItem="VpV-a2-7d9" firstAttribute="top" secondItem="YA2-D2-tPP" secondAttribute="bottom" constant="16" id="5gY-wV-cbH"/>
+                                    <constraint firstItem="4F8-MK-5qI" firstAttribute="top" secondItem="VpV-a2-7d9" secondAttribute="bottom" constant="8" id="6nT-FU-gyP"/>
+                                    <constraint firstAttribute="bottom" secondItem="nzZ-tc-ybs" secondAttribute="bottom" constant="24" id="OhM-lZ-M9z"/>
+                                    <constraint firstItem="YA2-D2-tPP" firstAttribute="top" secondItem="fqh-Qc-vZk" secondAttribute="top" constant="16" id="awX-80-WIs"/>
+                                    <constraint firstItem="nzZ-tc-ybs" firstAttribute="top" secondItem="4F8-MK-5qI" secondAttribute="bottom" constant="24" id="fEU-d6-5CR"/>
+                                    <constraint firstItem="YA2-D2-tPP" firstAttribute="centerX" secondItem="fqh-Qc-vZk" secondAttribute="centerX" id="rqb-vH-PMk"/>
+                                    <constraint firstAttribute="trailing" secondItem="nzZ-tc-ybs" secondAttribute="trailing" constant="16" id="znM-6j-XwW"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9nu-rX-p9T" firstAttribute="trailing" secondItem="VpV-a2-7d9" secondAttribute="trailing" constant="16" id="3Rp-Ip-sBe"/>
+                            <constraint firstItem="fqh-Qc-vZk" firstAttribute="top" secondItem="x5d-Ig-aeX" secondAttribute="top" id="5cY-6r-SPY"/>
+                            <constraint firstItem="9nu-rX-p9T" firstAttribute="trailing" secondItem="nzZ-tc-ybs" secondAttribute="trailing" constant="16" id="FLL-ON-y0m"/>
+                            <constraint firstAttribute="trailing" secondItem="fqh-Qc-vZk" secondAttribute="trailing" id="Frk-08-xjA"/>
+                            <constraint firstItem="VpV-a2-7d9" firstAttribute="leading" secondItem="9nu-rX-p9T" secondAttribute="leading" constant="16" id="SX9-gQ-0Hy"/>
+                            <constraint firstItem="9nu-rX-p9T" firstAttribute="bottom" secondItem="fqh-Qc-vZk" secondAttribute="bottom" id="TbB-Jo-udt"/>
+                            <constraint firstItem="4F8-MK-5qI" firstAttribute="leading" secondItem="9nu-rX-p9T" secondAttribute="leading" constant="16" id="Z4x-dg-Z8U"/>
+                            <constraint firstItem="nzZ-tc-ybs" firstAttribute="leading" secondItem="9nu-rX-p9T" secondAttribute="leading" constant="16" id="axr-9A-kQ9"/>
+                            <constraint firstItem="9nu-rX-p9T" firstAttribute="trailing" secondItem="4F8-MK-5qI" secondAttribute="trailing" constant="16" id="fG0-gf-6cc"/>
+                            <constraint firstItem="fqh-Qc-vZk" firstAttribute="leading" secondItem="x5d-Ig-aeX" secondAttribute="leading" id="ptf-QW-xHf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9nu-rX-p9T"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ghg-a8-wIC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="158"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="accountOpen" width="180" height="140"/>
+    </resources>
+</document>

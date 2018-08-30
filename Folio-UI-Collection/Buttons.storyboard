@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mb7-fl-3Ym">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="x7S-Je-r6c">
+            <objects>
+                <viewController id="Mb7-fl-3Ym" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gai-lM-hEO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGa-S3-bMg" customClass="ContainedButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="57.5" y="53" width="260" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="iAx-6g-QIY"/>
+                                    <constraint firstAttribute="height" constant="50" id="mQ1-Co-9EX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="アカウント登録"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contained Button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UG-x2-hWK" customClass="Label" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="20" width="343" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Outlined Button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkx-wN-Jiz" customClass="Label" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="127" width="343" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text Button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NL7-Xb-y7R" customClass="Label" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="234" width="343" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5Z-A5-paw" customClass="TextButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="267" width="343" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="アカウント登録">
+                                    <color key="titleColor" red="0.3960784376" green="0.52156865600000002" blue="0.76078432799999995" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7U-fe-cVp" customClass="TextButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="320" width="343" height="48"/>
+                                <color key="backgroundColor" red="0.96862745289999996" green="0.97254902119999997" blue="0.98039215800000001" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="aZN-NJ-j6I"/>
+                                    <constraint firstAttribute="width" constant="343" id="erZ-gS-OeG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="アカウント登録">
+                                    <color key="titleColor" red="0.50980395079999996" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0M-Rc-MOP" customClass="TextButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="392" width="343" height="48"/>
+                                <color key="backgroundColor" red="0.96862745289999996" green="0.97254902119999997" blue="0.98039215800000001" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Aft-R0-Lft"/>
+                                    <constraint firstAttribute="width" constant="343" id="X4r-lS-mGG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="アカウント登録">
+                                    <color key="titleColor" red="0.50980395079999996" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yI3-VP-GDy" customClass="OutlinedButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="57" y="160" width="260" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="0pZ-fG-V5j"/>
+                                    <constraint firstAttribute="height" constant="50" id="cG3-KP-5yM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="アカウント登録">
+                                    <color key="titleColor" red="1" green="0.70588237050000002" blue="0.29019609089999998" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.70588237050000002" blue="0.29019609089999998" alpha="1" colorSpace="deviceRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kGa-S3-bMg" firstAttribute="centerX" secondItem="Gai-lM-hEO" secondAttribute="centerX" id="1Q6-wb-2iz"/>
+                            <constraint firstItem="x0M-Rc-MOP" firstAttribute="top" secondItem="Q7U-fe-cVp" secondAttribute="bottom" constant="24" id="2gg-D0-SSd"/>
+                            <constraint firstItem="x0M-Rc-MOP" firstAttribute="centerX" secondItem="Gai-lM-hEO" secondAttribute="centerX" id="6XN-eg-u22"/>
+                            <constraint firstItem="kGa-S3-bMg" firstAttribute="top" secondItem="6UG-x2-hWK" secondAttribute="bottom" constant="16" id="8Cz-U8-mRW"/>
+                            <constraint firstItem="Id7-GI-I8n" firstAttribute="trailing" secondItem="NL7-Xb-y7R" secondAttribute="trailing" constant="16" id="8YE-R3-aP8"/>
+                            <constraint firstItem="NL7-Xb-y7R" firstAttribute="leading" secondItem="Id7-GI-I8n" secondAttribute="leading" constant="16" id="96v-h9-xvW"/>
+                            <constraint firstItem="Q7U-fe-cVp" firstAttribute="top" secondItem="v5Z-A5-paw" secondAttribute="bottom" constant="24" id="EOc-8Y-ddM"/>
+                            <constraint firstItem="Id7-GI-I8n" firstAttribute="trailing" secondItem="kkx-wN-Jiz" secondAttribute="trailing" constant="16" id="FUl-us-HEK"/>
+                            <constraint firstItem="Id7-GI-I8n" firstAttribute="trailing" secondItem="6UG-x2-hWK" secondAttribute="trailing" constant="16" id="HDf-En-ENz"/>
+                            <constraint firstItem="v5Z-A5-paw" firstAttribute="leading" secondItem="Id7-GI-I8n" secondAttribute="leading" constant="16" id="I5r-OY-H71"/>
+                            <constraint firstItem="NL7-Xb-y7R" firstAttribute="top" secondItem="yI3-VP-GDy" secondAttribute="bottom" constant="24" id="IBi-rw-zEY"/>
+                            <constraint firstItem="kGa-S3-bMg" firstAttribute="centerX" secondItem="Gai-lM-hEO" secondAttribute="centerX" id="LSf-14-f81"/>
+                            <constraint firstItem="kkx-wN-Jiz" firstAttribute="leading" secondItem="Id7-GI-I8n" secondAttribute="leading" constant="16" id="TOS-55-EOJ"/>
+                            <constraint firstItem="kkx-wN-Jiz" firstAttribute="top" secondItem="kGa-S3-bMg" secondAttribute="bottom" constant="24" id="awu-M4-w6P"/>
+                            <constraint firstItem="Q7U-fe-cVp" firstAttribute="centerX" secondItem="Gai-lM-hEO" secondAttribute="centerX" id="d4Z-sJ-Yn0"/>
+                            <constraint firstItem="yI3-VP-GDy" firstAttribute="centerX" secondItem="Gai-lM-hEO" secondAttribute="centerX" id="eeP-gD-iAI"/>
+                            <constraint firstItem="6UG-x2-hWK" firstAttribute="leading" secondItem="Id7-GI-I8n" secondAttribute="leading" constant="16" id="hAA-eV-bi7"/>
+                            <constraint firstItem="kGa-S3-bMg" firstAttribute="top" secondItem="6UG-x2-hWK" secondAttribute="bottom" constant="16" id="mTM-LQ-mhm"/>
+                            <constraint firstItem="Id7-GI-I8n" firstAttribute="trailing" secondItem="v5Z-A5-paw" secondAttribute="trailing" constant="16" id="nCv-mc-hBn"/>
+                            <constraint firstItem="yI3-VP-GDy" firstAttribute="top" secondItem="kkx-wN-Jiz" secondAttribute="bottom" constant="16" id="tbg-nK-Zj8"/>
+                            <constraint firstItem="v5Z-A5-paw" firstAttribute="top" secondItem="NL7-Xb-y7R" secondAttribute="bottom" constant="16" id="x5X-cu-h2Z"/>
+                            <constraint firstItem="6UG-x2-hWK" firstAttribute="top" secondItem="Id7-GI-I8n" secondAttribute="top" constant="20" id="ydz-t3-xxN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Id7-GI-I8n"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Bq-vo-XCc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="250.40000000000001" y="-189.3553223388306"/>
+        </scene>
+    </scenes>
+</document>

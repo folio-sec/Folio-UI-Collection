@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qLl-Fr-WFZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="L12-Kq-GaC">
+            <objects>
+                <viewController id="qLl-Fr-WFZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xxV-l1-7Qa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fpd-AH-9uO" customClass="TextField" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="24" width="343" height="58.5"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="username"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="assistiveText" value="半角英数字・記号（@&amp;#$%/-.*_）・50文字以下"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K4w-5J-prq" customClass="TextField" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="106" width="343" height="58.5"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="next" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="assistiveText" value="半角英数字・記号のみで8~50文字・複雑な文字列"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvm-NJ-3fg" customClass="ContainedButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="57" y="213" width="260" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2zw-ux-gRE"/>
+                                    <constraint firstAttribute="width" constant="260" id="lcc-Dh-g7Y"/>
+                                </constraints>
+                                <state key="normal" title="アカウント登録"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="containerColor">
+                                        <color key="value" red="0.94901961089999998" green="0.38039216399999998" blue="0.38039216399999998" alpha="1" colorSpace="deviceRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedContainerColor">
+                                        <color key="value" red="0.94901961089999998" green="0.38039216399999998" blue="0.38039216399999998" alpha="0.90000000000000002" colorSpace="deviceRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="disabledContainerColor">
+                                        <color key="value" red="0.85490196939999996" green="0.85882353779999998" blue="0.89019608500000003" alpha="1" colorSpace="deviceRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VuU-2s-kA2" customClass="TextButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="295" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dPU-V2-StB"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="個人情報のお取り扱いについて">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50980395079999996" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="deviceRGB"/>
+                                                <font key="NSFont" size="12" name="HiraginoSans-W3"/>
+                                                <font key="NSOriginalFont" size="12" name="HiraginoSans-W3"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <state key="highlighted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="個人情報のお取り扱いについて">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50980000000000003" green="0.50980000000000003" blue="0.56471000000000005" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="12" name="HiraginoSans-W3"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                                <color key="NSUnderlineColor" red="0.50980000000000003" green="0.50980000000000003" blue="0.56471000000000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SOe-AV-gqe" firstAttribute="trailing" secondItem="K4w-5J-prq" secondAttribute="trailing" constant="16" id="0Ta-pD-lOe"/>
+                            <constraint firstItem="SOe-AV-gqe" firstAttribute="trailing" secondItem="VuU-2s-kA2" secondAttribute="trailing" id="84g-rX-Y3Z"/>
+                            <constraint firstItem="K4w-5J-prq" firstAttribute="top" secondItem="fpd-AH-9uO" secondAttribute="bottom" constant="24" id="CCx-qe-20F"/>
+                            <constraint firstItem="Kvm-NJ-3fg" firstAttribute="top" secondItem="K4w-5J-prq" secondAttribute="bottom" constant="48" id="Dp4-3K-wcb"/>
+                            <constraint firstItem="fpd-AH-9uO" firstAttribute="top" secondItem="SOe-AV-gqe" secondAttribute="top" constant="24" id="Eg5-Nj-yUI"/>
+                            <constraint firstItem="VuU-2s-kA2" firstAttribute="top" secondItem="Kvm-NJ-3fg" secondAttribute="bottom" constant="32" id="GZZ-Xt-BAs"/>
+                            <constraint firstItem="VuU-2s-kA2" firstAttribute="leading" secondItem="SOe-AV-gqe" secondAttribute="leading" id="KQF-kT-I6U"/>
+                            <constraint firstItem="fpd-AH-9uO" firstAttribute="leading" secondItem="SOe-AV-gqe" secondAttribute="leading" constant="16" id="KXY-6m-KoK"/>
+                            <constraint firstItem="Kvm-NJ-3fg" firstAttribute="centerX" secondItem="xxV-l1-7Qa" secondAttribute="centerX" id="S1r-ZW-HuS"/>
+                            <constraint firstItem="SOe-AV-gqe" firstAttribute="trailing" secondItem="fpd-AH-9uO" secondAttribute="trailing" constant="16" id="lvI-E3-TIe"/>
+                            <constraint firstItem="K4w-5J-prq" firstAttribute="leading" secondItem="SOe-AV-gqe" secondAttribute="leading" constant="16" id="wOF-BS-e8c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SOe-AV-gqe"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DKM-B7-bBs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="342" y="113"/>
+        </scene>
+    </scenes>
+</document>

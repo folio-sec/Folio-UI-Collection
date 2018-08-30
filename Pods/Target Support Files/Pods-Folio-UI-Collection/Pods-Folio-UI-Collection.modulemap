@@ -1,0 +1,6 @@
+framework module Pods_Folio_UI_Collection {
+  umbrella header "Pods-Folio-UI-Collection-umbrella.h"
+
+  export *
+  module * { export * }
+}

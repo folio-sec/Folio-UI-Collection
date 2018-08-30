@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4b3-hQ-q0t">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="vLQ-qv-YKS">
+            <objects>
+                <viewController id="4b3-hQ-q0t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y3y-0J-W2D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sfl-vm-Fmr" customClass="TextField" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="24" width="343" height="58.5"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="username"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="assistiveText" value="半角英数字・記号（@&amp;#$%/-.*_）・50文字以下"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A66-Pf-6BL" customClass="TextField" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                <rect key="frame" x="16" y="106" width="343" height="58.5"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="next" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="assistiveText" value="半角英数字・記号のみで8~50文字・複雑な文字列"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NJz-qx-6Lf" firstAttribute="trailing" secondItem="A66-Pf-6BL" secondAttribute="trailing" constant="16" id="2at-hp-0Xf"/>
+                            <constraint firstItem="NJz-qx-6Lf" firstAttribute="trailing" secondItem="Sfl-vm-Fmr" secondAttribute="trailing" constant="16" id="3YF-uG-S2O"/>
+                            <constraint firstItem="A66-Pf-6BL" firstAttribute="top" secondItem="Sfl-vm-Fmr" secondAttribute="bottom" constant="24" id="i2p-pA-HtD"/>
+                            <constraint firstItem="Sfl-vm-Fmr" firstAttribute="top" secondItem="NJz-qx-6Lf" secondAttribute="top" constant="24" id="j7l-mg-ZtU"/>
+                            <constraint firstItem="A66-Pf-6BL" firstAttribute="leading" secondItem="NJz-qx-6Lf" secondAttribute="leading" constant="16" id="mIj-Xn-Up8"/>
+                            <constraint firstItem="Sfl-vm-Fmr" firstAttribute="leading" secondItem="NJz-qx-6Lf" secondAttribute="leading" constant="16" id="xYL-2y-0AX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NJz-qx-6Lf"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2lN-z2-rR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="143"/>
+        </scene>
+    </scenes>
+</document>

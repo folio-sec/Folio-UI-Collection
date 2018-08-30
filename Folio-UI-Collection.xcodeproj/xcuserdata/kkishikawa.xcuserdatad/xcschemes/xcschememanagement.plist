@@ -7,7 +7,20 @@
 		<key>Folio-UI-Collection.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9621AE2F213754B100647D79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9621AE43213754B400647D79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VSs-xp-QZE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="NiL-Ya-j97">
+            <objects>
+                <viewController id="VSs-xp-QZE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bdH-yb-lnq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iSf-wQ-HaS">
+                                <rect key="frame" x="16" y="16" width="343" height="330"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYB-w8-3zc" customClass="Container" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="52"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kz9-n5-vZi" customClass="Label" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="52"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" priority="999" constant="52" id="OVE-ff-OqX"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">このページからログインして
+本登録を完了させてください。</string>
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.25490197539999998" green="0.2588235438" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="12" name="HiraginoSans-W6"/>
+                                                            <font key="NSOriginalFont" size="12" name="HiraginoSans-W6"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" minimumLineHeight="18" maximumLineHeight="18" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96862745289999996" green="0.97254902119999997" blue="0.98039215800000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Kz9-n5-vZi" secondAttribute="trailing" id="EHu-kA-efc"/>
+                                            <constraint firstAttribute="bottom" secondItem="Kz9-n5-vZi" secondAttribute="bottom" id="I2T-Km-UfM"/>
+                                            <constraint firstItem="Kz9-n5-vZi" firstAttribute="leading" secondItem="wYB-w8-3zc" secondAttribute="leading" id="WcL-rE-whX"/>
+                                            <constraint firstItem="Kz9-n5-vZi" firstAttribute="top" secondItem="wYB-w8-3zc" secondAttribute="top" id="zY1-ut-8lr"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="55u-tm-ANC">
+                                        <rect key="frame" x="0.0" y="60" width="343" height="270"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceZ-BG-MIE" customClass="TextField" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="8" width="343" height="45"/>
+                                                <color key="textColor" red="0.25490197539999998" green="0.2588235438" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="username"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BnH-Jb-rMq" customClass="TextField" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="73" width="343" height="45"/>
+                                                <color key="textColor" red="0.25490197539999998" green="0.2588235438" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bq9-yN-IrS" customClass="TextButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="187" y="124" width="156" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="E96-n8-My0"/>
+                                                </constraints>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="パスワードが分からない場合">
+                                                            <attributes>
+                                                                <color key="NSBackgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="NSColor" red="0.50980395079999996" green="0.50980395079999996" blue="0.5647059083" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="12" name="HiraginoSans-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="27.149999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                    <tabStops>
+                                                                        <textTab alignment="left" location="27.149999618530273">
+                                                                            <options/>
+                                                                        </textTab>
+                                                                    </tabStops>
+                                                                </paragraphStyle>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="パスワードが分からない場合">
+                                                            <attributes>
+                                                                <color key="NSBackgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="NSColor" red="0.50980000000000003" green="0.50980000000000003" blue="0.56471000000000005" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="12" name="HiraginoSans-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="27.149999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                    <tabStops>
+                                                                        <textTab alignment="left" location="27.149999618530273">
+                                                                            <options/>
+                                                                        </textTab>
+                                                                    </tabStops>
+                                                                </paragraphStyle>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                                <color key="NSUnderlineColor" red="0.50980000000000003" green="0.50980000000000003" blue="0.56471000000000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxk-Xy-brl" customClass="ContainedButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="41" y="172" width="260" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="KzX-tw-TXO"/>
+                                                    <constraint firstAttribute="width" constant="260" id="pzy-NE-UKo"/>
+                                                </constraints>
+                                                <state key="normal" title="ログイン"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="containerColor">
+                                                        <color key="value" red="0.94901961089999998" green="0.38039216399999998" blue="0.38039216399999998" alpha="1" colorSpace="deviceRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="disabledContainerColor">
+                                                        <color key="value" red="0.85490196939999996" green="0.85882353779999998" blue="0.89019608500000003" alpha="1" colorSpace="deviceRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedContainerColor">
+                                                        <color key="value" red="0.94901961089999998" green="0.38039216399999998" blue="0.38039216399999998" alpha="0.90000000000000002" colorSpace="deviceRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Gp-HO-eDJ" customClass="TextButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="99" y="240" width="145" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="I1D-ty-l5E"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <state key="normal" title="アカウント登録はこちら">
+                                                    <color key="titleColor" red="0.3960784376" green="0.52156865600000002" blue="0.76078432799999995" alpha="1" colorSpace="deviceRGB"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" red="0.3960784376" green="0.52156865600000002" blue="0.76078432799999995" alpha="0.29999999999999999" colorSpace="deviceRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="ceZ-BG-MIE" firstAttribute="leading" secondItem="55u-tm-ANC" secondAttribute="leading" id="1Pa-Qn-WcT"/>
+                                            <constraint firstItem="mxk-Xy-brl" firstAttribute="centerX" secondItem="55u-tm-ANC" secondAttribute="centerX" id="4Cf-XS-0nW"/>
+                                            <constraint firstAttribute="trailing" secondItem="ceZ-BG-MIE" secondAttribute="trailing" id="6eY-bz-zgm"/>
+                                            <constraint firstItem="bq9-yN-IrS" firstAttribute="top" secondItem="BnH-Jb-rMq" secondAttribute="bottom" constant="6" id="LA7-wz-JUE"/>
+                                            <constraint firstAttribute="trailing" secondItem="bq9-yN-IrS" secondAttribute="trailing" id="Qko-aW-9iz"/>
+                                            <constraint firstItem="mxk-Xy-brl" firstAttribute="top" secondItem="bq9-yN-IrS" secondAttribute="bottom" constant="18" id="UVf-6w-Ysc"/>
+                                            <constraint firstItem="5Gp-HO-eDJ" firstAttribute="top" secondItem="mxk-Xy-brl" secondAttribute="bottom" constant="18" id="VkG-6t-DXY"/>
+                                            <constraint firstAttribute="bottom" secondItem="5Gp-HO-eDJ" secondAttribute="bottom" id="YMH-vo-HWt"/>
+                                            <constraint firstAttribute="bottom" secondItem="5Gp-HO-eDJ" secondAttribute="bottom" id="Z4P-tg-u98"/>
+                                            <constraint firstItem="BnH-Jb-rMq" firstAttribute="leading" secondItem="55u-tm-ANC" secondAttribute="leading" id="abX-m1-okI"/>
+                                            <constraint firstAttribute="trailing" secondItem="BnH-Jb-rMq" secondAttribute="trailing" id="mtY-ls-k8W"/>
+                                            <constraint firstItem="ceZ-BG-MIE" firstAttribute="top" secondItem="55u-tm-ANC" secondAttribute="top" constant="8" id="mxz-69-gfI"/>
+                                            <constraint firstItem="BnH-Jb-rMq" firstAttribute="top" secondItem="ceZ-BG-MIE" secondAttribute="bottom" constant="20" id="qgy-Rc-XOZ"/>
+                                            <constraint firstItem="5Gp-HO-eDJ" firstAttribute="centerX" secondItem="55u-tm-ANC" secondAttribute="centerX" id="vff-l5-9Ry"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iSf-wQ-HaS" firstAttribute="leading" secondItem="8D3-1x-6zT" secondAttribute="leading" constant="16" id="gRP-zo-TIR"/>
+                            <constraint firstItem="8D3-1x-6zT" firstAttribute="trailing" secondItem="iSf-wQ-HaS" secondAttribute="trailing" constant="16" id="hwC-5R-lSa"/>
+                            <constraint firstItem="iSf-wQ-HaS" firstAttribute="top" secondItem="8D3-1x-6zT" secondAttribute="top" constant="16" id="m93-24-DIB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8D3-1x-6zT"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cIl-mH-lHX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="981.60000000000002" y="71.514242878560722"/>
+        </scene>
+    </scenes>
+</document>

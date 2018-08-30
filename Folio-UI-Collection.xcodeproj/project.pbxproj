@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23508C8C60AB01DB1EEA2B11 /* Pods_Folio_UI_Collection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D1631C94A7099A4ECC83C /* Pods_Folio_UI_Collection.framework */; };
+		66DB733E9254CAD8148C4E2F /* Pods_Folio_UI_CollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73754ED81FED2BB1640DE0B /* Pods_Folio_UI_CollectionTests.framework */; };
 		9621AE34213754B100647D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE33213754B100647D79 /* AppDelegate.swift */; };
-		9621AE36213754B100647D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE35213754B100647D79 /* ViewController.swift */; };
+		9621AE36213754B100647D79 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE35213754B100647D79 /* MainViewController.swift */; };
 		9621AE39213754B100647D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE37213754B100647D79 /* Main.storyboard */; };
 		9621AE3B213754B300647D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE3A213754B300647D79 /* Assets.xcassets */; };
 		9621AE3E213754B300647D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE3C213754B300647D79 /* LaunchScreen.storyboard */; };
 		9621AE49213754B400647D79 /* Folio_UI_CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE48213754B400647D79 /* Folio_UI_CollectionTests.swift */; };
+		9621AE592137554100647D79 /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE532137554000647D79 /* ContainedButton.swift */; };
+		9621AE5A2137554100647D79 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE542137554000647D79 /* Label.swift */; };
+		9621AE5B2137554100647D79 /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE552137554000647D79 /* OutlinedButton.swift */; };
+		9621AE5C2137554100647D79 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE562137554000647D79 /* TextField.swift */; };
+		9621AE5D2137554100647D79 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE572137554100647D79 /* Container.swift */; };
+		9621AE5E2137554100647D79 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE582137554100647D79 /* TextButton.swift */; };
+		9621AE622137559500647D79 /* SubmissionStatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE612137559500647D79 /* SubmissionStatusButton.swift */; };
+		9621AE64213755A500647D79 /* SubmissionStatusButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE63213755A500647D79 /* SubmissionStatusButtonTests.swift */; };
+		9621AE662137563D00647D79 /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE652137563D00647D79 /* SignUpViewController.storyboard */; };
+		9621AE692137571400647D79 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE682137571400647D79 /* Colors.swift */; };
+		9621AE6B2137580200647D79 /* SignInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE6A2137580200647D79 /* SignInViewController.storyboard */; };
+		9621AE6D213758DC00647D79 /* AccountOpeningStatusViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE6C213758DC00647D79 /* AccountOpeningStatusViewController.storyboard */; };
+		9651BEE921375F1200E66F0D /* ThemeCategoryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEE821375F1200E66F0D /* ThemeCategoryViewController.storyboard */; };
+		9651BEEB2137670E00E66F0D /* ThemeCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651BEEA2137670E00E66F0D /* ThemeCategoryViewController.swift */; };
+		9651BEED21376B3200E66F0D /* Buttons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEEC21376B3200E66F0D /* Buttons.storyboard */; };
+		9651BEEF21376D2000E66F0D /* TextField.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEEE21376D2000E66F0D /* TextField.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21E6EC1D3B002E1154E9F812 /* Pods-Folio-UI-CollectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Folio-UI-CollectionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		54624AAEC86AD2834AEBF282 /* Pods-Folio-UI-CollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Folio-UI-CollectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		671C53E6B879A989F1EC7EA8 /* Pods-Folio-UI-Collection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Folio-UI-Collection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Folio-UI-Collection/Pods-Folio-UI-Collection.debug.xcconfig"; sourceTree = "<group>"; };
 		9621AE30213754B100647D79 /* Folio-UI-Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Folio-UI-Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9621AE33213754B100647D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9621AE35213754B100647D79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9621AE35213754B100647D79 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9621AE38213754B100647D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9621AE3A213754B300647D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9621AE3D213754B300647D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +57,25 @@
 		9621AE44213754B400647D79 /* Folio-UI-CollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Folio-UI-CollectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9621AE48213754B400647D79 /* Folio_UI_CollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folio_UI_CollectionTests.swift; sourceTree = "<group>"; };
 		9621AE4A213754B400647D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9621AE532137554000647D79 /* ContainedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainedButton.swift; sourceTree = "<group>"; };
+		9621AE542137554000647D79 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		9621AE552137554000647D79 /* OutlinedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedButton.swift; sourceTree = "<group>"; };
+		9621AE562137554000647D79 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		9621AE572137554100647D79 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		9621AE582137554100647D79 /* TextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		9621AE612137559500647D79 /* SubmissionStatusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmissionStatusButton.swift; sourceTree = "<group>"; };
+		9621AE63213755A500647D79 /* SubmissionStatusButtonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmissionStatusButtonTests.swift; sourceTree = "<group>"; };
+		9621AE652137563D00647D79 /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
+		9621AE682137571400647D79 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		9621AE6A2137580200647D79 /* SignInViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInViewController.storyboard; sourceTree = "<group>"; };
+		9621AE6C213758DC00647D79 /* AccountOpeningStatusViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountOpeningStatusViewController.storyboard; sourceTree = "<group>"; };
+		9651BEE821375F1200E66F0D /* ThemeCategoryViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThemeCategoryViewController.storyboard; sourceTree = "<group>"; };
+		9651BEEA2137670E00E66F0D /* ThemeCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCategoryViewController.swift; sourceTree = "<group>"; };
+		9651BEEC21376B3200E66F0D /* Buttons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Buttons.storyboard; sourceTree = "<group>"; };
+		9651BEEE21376D2000E66F0D /* TextField.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextField.storyboard; sourceTree = "<group>"; };
+		AE599B55EC66E216B821FCB6 /* Pods-Folio-UI-Collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Folio-UI-Collection.release.xcconfig"; path = "Pods/Target Support Files/Pods-Folio-UI-Collection/Pods-Folio-UI-Collection.release.xcconfig"; sourceTree = "<group>"; };
+		D73754ED81FED2BB1640DE0B /* Pods_Folio_UI_CollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Folio_UI_CollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19D1631C94A7099A4ECC83C /* Pods_Folio_UI_Collection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Folio_UI_Collection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23508C8C60AB01DB1EEA2B11 /* Pods_Folio_UI_Collection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +91,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DB733E9254CAD8148C4E2F /* Pods_Folio_UI_CollectionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		396A533712D2E9EBA3D88198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E19D1631C94A7099A4ECC83C /* Pods_Folio_UI_Collection.framework */,
+				D73754ED81FED2BB1640DE0B /* Pods_Folio_UI_CollectionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9621AE27213754B100647D79 = {
 			isa = PBXGroup;
 			children = (
 				9621AE32213754B100647D79 /* Folio-UI-Collection */,
 				9621AE47213754B400647D79 /* Folio-UI-CollectionTests */,
 				9621AE31213754B100647D79 /* Products */,
+				AF320154DA043EF29A1CC07B /* Pods */,
+				396A533712D2E9EBA3D88198 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +131,18 @@
 			isa = PBXGroup;
 			children = (
 				9621AE33213754B100647D79 /* AppDelegate.swift */,
-				9621AE35213754B100647D79 /* ViewController.swift */,
+				9621AE35213754B100647D79 /* MainViewController.swift */,
+				9651BEEA2137670E00E66F0D /* ThemeCategoryViewController.swift */,
+				9621AE672137570700647D79 /* Style */,
+				9621AE602137557500647D79 /* Custom */,
+				9621AE5F2137555A00647D79 /* Common */,
 				9621AE37213754B100647D79 /* Main.storyboard */,
+				9651BEEC21376B3200E66F0D /* Buttons.storyboard */,
+				9651BEEE21376D2000E66F0D /* TextField.storyboard */,
+				9621AE652137563D00647D79 /* SignUpViewController.storyboard */,
+				9621AE6A2137580200647D79 /* SignInViewController.storyboard */,
+				9621AE6C213758DC00647D79 /* AccountOpeningStatusViewController.storyboard */,
+				9651BEE821375F1200E66F0D /* ThemeCategoryViewController.storyboard */,
 				9621AE3A213754B300647D79 /* Assets.xcassets */,
 				9621AE3C213754B300647D79 /* LaunchScreen.storyboard */,
 				9621AE3F213754B300647D79 /* Info.plist */,
@@ -91,9 +154,50 @@
 			isa = PBXGroup;
 			children = (
 				9621AE48213754B400647D79 /* Folio_UI_CollectionTests.swift */,
+				9621AE63213755A500647D79 /* SubmissionStatusButtonTests.swift */,
 				9621AE4A213754B400647D79 /* Info.plist */,
 			);
 			path = "Folio-UI-CollectionTests";
+			sourceTree = "<group>";
+		};
+		9621AE5F2137555A00647D79 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9621AE572137554100647D79 /* Container.swift */,
+				9621AE542137554000647D79 /* Label.swift */,
+				9621AE532137554000647D79 /* ContainedButton.swift */,
+				9621AE552137554000647D79 /* OutlinedButton.swift */,
+				9621AE582137554100647D79 /* TextButton.swift */,
+				9621AE562137554000647D79 /* TextField.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9621AE602137557500647D79 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				9621AE612137559500647D79 /* SubmissionStatusButton.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		9621AE672137570700647D79 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				9621AE682137571400647D79 /* Colors.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		AF320154DA043EF29A1CC07B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				671C53E6B879A989F1EC7EA8 /* Pods-Folio-UI-Collection.debug.xcconfig */,
+				AE599B55EC66E216B821FCB6 /* Pods-Folio-UI-Collection.release.xcconfig */,
+				54624AAEC86AD2834AEBF282 /* Pods-Folio-UI-CollectionTests.debug.xcconfig */,
+				21E6EC1D3B002E1154E9F812 /* Pods-Folio-UI-CollectionTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9621AE4D213754B400647D79 /* Build configuration list for PBXNativeTarget "Folio-UI-Collection" */;
 			buildPhases = (
+				C67E0433C391ADE4A8664937 /* [CP] Check Pods Manifest.lock */,
 				9621AE2C213754B100647D79 /* Sources */,
 				9621AE2D213754B100647D79 /* Frameworks */,
 				9621AE2E213754B100647D79 /* Resources */,
@@ -120,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9621AE50213754B400647D79 /* Build configuration list for PBXNativeTarget "Folio-UI-CollectionTests" */;
 			buildPhases = (
+				07C5BDCB10740DD74557F79F /* [CP] Check Pods Manifest.lock */,
 				9621AE40213754B400647D79 /* Sources */,
 				9621AE41213754B400647D79 /* Frameworks */,
 				9621AE42213754B400647D79 /* Resources */,
+				0ED018EC0A1F30BFF194074C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,9 +284,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9651BEED21376B3200E66F0D /* Buttons.storyboard in Resources */,
 				9621AE3E213754B300647D79 /* LaunchScreen.storyboard in Resources */,
+				9651BEEF21376D2000E66F0D /* TextField.storyboard in Resources */,
+				9621AE6B2137580200647D79 /* SignInViewController.storyboard in Resources */,
+				9621AE6D213758DC00647D79 /* AccountOpeningStatusViewController.storyboard in Resources */,
 				9621AE3B213754B300647D79 /* Assets.xcassets in Resources */,
 				9621AE39213754B100647D79 /* Main.storyboard in Resources */,
+				9651BEE921375F1200E66F0D /* ThemeCategoryViewController.storyboard in Resources */,
+				9621AE662137563D00647D79 /* SignUpViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,12 +305,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07C5BDCB10740DD74557F79F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Folio-UI-CollectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ED018EC0A1F30BFF194074C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67E0433C391ADE4A8664937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Folio-UI-Collection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9621AE2C213754B100647D79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9621AE36213754B100647D79 /* ViewController.swift in Sources */,
+				9621AE5B2137554100647D79 /* OutlinedButton.swift in Sources */,
+				9621AE692137571400647D79 /* Colors.swift in Sources */,
+				9651BEEB2137670E00E66F0D /* ThemeCategoryViewController.swift in Sources */,
+				9621AE622137559500647D79 /* SubmissionStatusButton.swift in Sources */,
+				9621AE592137554100647D79 /* ContainedButton.swift in Sources */,
+				9621AE36213754B100647D79 /* MainViewController.swift in Sources */,
+				9621AE5C2137554100647D79 /* TextField.swift in Sources */,
+				9621AE5E2137554100647D79 /* TextButton.swift in Sources */,
+				9621AE5D2137554100647D79 /* Container.swift in Sources */,
+				9621AE5A2137554100647D79 /* Label.swift in Sources */,
 				9621AE34213754B100647D79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9621AE49213754B400647D79 /* Folio_UI_CollectionTests.swift in Sources */,
+				9621AE64213755A500647D79 /* SubmissionStatusButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +536,7 @@
 		};
 		9621AE4E213754B400647D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671C53E6B879A989F1EC7EA8 /* Pods-Folio-UI-Collection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +555,7 @@
 		};
 		9621AE4F213754B400647D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE599B55EC66E216B821FCB6 /* Pods-Folio-UI-Collection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,8 +574,8 @@
 		};
 		9621AE51213754B400647D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54624AAEC86AD2834AEBF282 /* Pods-Folio-UI-CollectionTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EEZMTM2696;
@@ -413,8 +595,8 @@
 		};
 		9621AE52213754B400647D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E6EC1D3B002E1154E9F812 /* Pods-Folio-UI-CollectionTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EEZMTM2696;
