@@ -1,8 +1,8 @@
 PODS:
-  - iOSSnapshotTestCase (3.0.0):
-    - iOSSnapshotTestCase/SwiftSupport (= 3.0.0)
-  - iOSSnapshotTestCase/Core (3.0.0)
-  - iOSSnapshotTestCase/SwiftSupport (3.0.0):
+  - iOSSnapshotTestCase (4.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 4.0.0)
+  - iOSSnapshotTestCase/Core (4.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (4.0.0):
     - iOSSnapshotTestCase/Core
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ SPEC REPOS:
     - iOSSnapshotTestCase
 
 SPEC CHECKSUMS:
-  iOSSnapshotTestCase: 23984ffe05289728d646cbb6a7a10b4fb1c93440
+  iOSSnapshotTestCase: 711379b19f69a22c131527df862352c877c2773c
 
 PODFILE CHECKSUM: 762c724a4df2b022527e27a38162fcbaaf6d6e05
 
