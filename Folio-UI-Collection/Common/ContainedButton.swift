@@ -47,7 +47,7 @@ class ContainedButton: UIButton {
         commonInit()
 
         if let title = title(for: state) {
-            setAttributedTitle(NSAttributedString(string: title, attributes: [NSAttributedStringKey(String(kCTLanguageAttributeName)): "ja"]), for: .normal)
+            setAttributedTitle(NSAttributedString(string: title, attributes: [NSAttributedString.Key(String(kCTLanguageAttributeName)): "ja"]), for: .normal)
         }
     }
 
