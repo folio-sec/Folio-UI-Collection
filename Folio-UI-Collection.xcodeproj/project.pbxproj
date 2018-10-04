@@ -14,7 +14,6 @@
 		9621AE39213754B100647D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE37213754B100647D79 /* Main.storyboard */; };
 		9621AE3B213754B300647D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE3A213754B300647D79 /* Assets.xcassets */; };
 		9621AE3E213754B300647D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9621AE3C213754B300647D79 /* LaunchScreen.storyboard */; };
-		9621AE49213754B400647D79 /* Folio_UI_CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE48213754B400647D79 /* Folio_UI_CollectionTests.swift */; };
 		9621AE592137554100647D79 /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE532137554000647D79 /* ContainedButton.swift */; };
 		9621AE5A2137554100647D79 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE542137554000647D79 /* Label.swift */; };
 		9621AE5B2137554100647D79 /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE552137554000647D79 /* OutlinedButton.swift */; };
@@ -55,7 +54,6 @@
 		9621AE3D213754B300647D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9621AE3F213754B300647D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9621AE44213754B400647D79 /* Folio-UI-CollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Folio-UI-CollectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9621AE48213754B400647D79 /* Folio_UI_CollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folio_UI_CollectionTests.swift; sourceTree = "<group>"; };
 		9621AE4A213754B400647D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9621AE532137554000647D79 /* ContainedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainedButton.swift; sourceTree = "<group>"; };
 		9621AE542137554000647D79 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 		9621AE47213754B400647D79 /* Folio-UI-CollectionTests */ = {
 			isa = PBXGroup;
 			children = (
-				9621AE48213754B400647D79 /* Folio_UI_CollectionTests.swift */,
 				9621AE63213755A500647D79 /* SubmissionStatusButtonTests.swift */,
 				9621AE4A213754B400647D79 /* Info.plist */,
 			);
@@ -385,7 +382,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9621AE49213754B400647D79 /* Folio_UI_CollectionTests.swift in Sources */,
 				9621AE64213755A500647D79 /* SubmissionStatusButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
