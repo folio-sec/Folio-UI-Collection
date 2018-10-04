@@ -156,7 +156,7 @@ class TextField: UITextField {
     }
 
     private func setupLabelTextAnimation() {
-        notificationToken = NotificationCenter.default.addObserver(forName: .UITextFieldTextDidChange, object: self, queue: nil) { [weak self] (notification) in
+        notificationToken = NotificationCenter.default.addObserver(forName: UITextField.textDidChangeNotification, object: self, queue: nil) { [weak self] (notification) in
             guard let labelTextLabel = self?.labelTextLabel else {
                 return
             }

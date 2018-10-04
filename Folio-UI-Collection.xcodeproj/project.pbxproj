@@ -250,9 +250,11 @@
 				TargetAttributes = {
 					9621AE2F213754B100647D79 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					9621AE43213754B400647D79 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 9621AE2F213754B100647D79;
 					};
 				};
@@ -544,7 +546,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.folio-sec.Folio-UI-Collection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -563,7 +565,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.folio-sec.Folio-UI-Collection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -583,7 +585,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.folio-sec.Folio-UI-CollectionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Folio-UI-Collection.app/Folio-UI-Collection";
 			};
@@ -604,7 +606,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.folio-sec.Folio-UI-CollectionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Folio-UI-Collection.app/Folio-UI-Collection";
 			};
