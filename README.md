@@ -8,3 +8,5 @@ UI components and live documentation for Folio iOS app
 <img src="https://user-images.githubusercontent.com/40610/44827016-2307b600-ac4c-11e8-9173-c8816530a995.png" width=320> <img src="https://user-images.githubusercontent.com/40610/44827018-2438e300-ac4c-11e8-84fd-26d55ba417ff.png" width=320>
 
 <img src="https://user-images.githubusercontent.com/40610/44827026-29962d80-ac4c-11e8-8f24-c9dd1bd94e7c.png" width=320>
+
+<img src="https://user-images.githubusercontent.com/40610/46520335-912c4200-c8b6-11e8-8ce7-2f4b62c06f46.gif" width=320>
