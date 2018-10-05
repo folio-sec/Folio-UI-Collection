@@ -4,17 +4,26 @@ PODS:
   - iOSSnapshotTestCase/Core (4.0.0)
   - iOSSnapshotTestCase/SwiftSupport (4.0.0):
     - iOSSnapshotTestCase/Core
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
 
 DEPENDENCIES:
   - iOSSnapshotTestCase
+  - RxCocoa
+  - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - iOSSnapshotTestCase
+    - RxCocoa
+    - RxSwift
 
 SPEC CHECKSUMS:
   iOSSnapshotTestCase: 711379b19f69a22c131527df862352c877c2773c
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
 
-PODFILE CHECKSUM: 762c724a4df2b022527e27a38162fcbaaf6d6e05
+PODFILE CHECKSUM: 72360f4ed5c80ce917de9674faf1bed42f01eaec
 
 COCOAPODS: 1.5.3

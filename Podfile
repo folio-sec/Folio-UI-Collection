@@ -1,7 +1,9 @@
 platform :ios, '10.0'
+use_frameworks!
 
 target 'Folio-UI-Collection' do
-  use_frameworks!
+  pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'Folio-UI-CollectionTests' do
     inherit! :search_paths
