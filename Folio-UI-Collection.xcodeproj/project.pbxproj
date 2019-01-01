@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14364E5021DB788600616F6C /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14364E4D21DB788500616F6C /* Walkthrough.storyboard */; };
 		23508C8C60AB01DB1EEA2B11 /* Pods_Folio_UI_Collection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D1631C94A7099A4ECC83C /* Pods_Folio_UI_Collection.framework */; };
 		66DB733E9254CAD8148C4E2F /* Pods_Folio_UI_CollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73754ED81FED2BB1640DE0B /* Pods_Folio_UI_CollectionTests.framework */; };
 		9621AE34213754B100647D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621AE33213754B100647D79 /* AppDelegate.swift */; };
@@ -30,7 +31,6 @@
 		9651BEEB2137670E00E66F0D /* ThemeCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651BEEA2137670E00E66F0D /* ThemeCategoryViewController.swift */; };
 		9651BEED21376B3200E66F0D /* Buttons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEEC21376B3200E66F0D /* Buttons.storyboard */; };
 		9651BEEF21376D2000E66F0D /* TextField.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEEE21376D2000E66F0D /* TextField.storyboard */; };
-		966160BA216729D100D3A95E /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966160B9216729D100D3A95E /* Walkthrough.storyboard */; };
 		966160BE21672A7C00D3A95E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966160BD21672A7C00D3A95E /* PrimaryButton.swift */; };
 		966160C021672FA100D3A95E /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966160BF21672FA100D3A95E /* WalkthroughViewController.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14364E4D21DB788500616F6C /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
 		21E6EC1D3B002E1154E9F812 /* Pods-Folio-UI-CollectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Folio-UI-CollectionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests.release.xcconfig"; sourceTree = "<group>"; };
 		54624AAEC86AD2834AEBF282 /* Pods-Folio-UI-CollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Folio-UI-CollectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		671C53E6B879A989F1EC7EA8 /* Pods-Folio-UI-Collection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Folio-UI-Collection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Folio-UI-Collection/Pods-Folio-UI-Collection.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +75,6 @@
 		9651BEEA2137670E00E66F0D /* ThemeCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCategoryViewController.swift; sourceTree = "<group>"; };
 		9651BEEC21376B3200E66F0D /* Buttons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Buttons.storyboard; sourceTree = "<group>"; };
 		9651BEEE21376D2000E66F0D /* TextField.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextField.storyboard; sourceTree = "<group>"; };
-		966160B9216729D100D3A95E /* Walkthrough.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
 		966160BD21672A7C00D3A95E /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		966160BF21672FA100D3A95E /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
 		AE599B55EC66E216B821FCB6 /* Pods-Folio-UI-Collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Folio-UI-Collection.release.xcconfig"; path = "Pods/Target Support Files/Pods-Folio-UI-Collection/Pods-Folio-UI-Collection.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 				9621AE37213754B100647D79 /* Main.storyboard */,
 				9651BEEC21376B3200E66F0D /* Buttons.storyboard */,
 				9651BEEE21376D2000E66F0D /* TextField.storyboard */,
-				966160B9216729D100D3A95E /* Walkthrough.storyboard */,
+				14364E4D21DB788500616F6C /* Walkthrough.storyboard */,
 				9621AE652137563D00647D79 /* SignUpViewController.storyboard */,
 				9621AE6A2137580200647D79 /* SignInViewController.storyboard */,
 				9621AE6C213758DC00647D79 /* AccountOpeningStatusViewController.storyboard */,
@@ -293,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14364E5021DB788600616F6C /* Walkthrough.storyboard in Resources */,
 				9651BEED21376B3200E66F0D /* Buttons.storyboard in Resources */,
 				9621AE3E213754B300647D79 /* LaunchScreen.storyboard in Resources */,
 				9651BEEF21376D2000E66F0D /* TextField.storyboard in Resources */,
@@ -300,7 +301,6 @@
 				9621AE6D213758DC00647D79 /* AccountOpeningStatusViewController.storyboard in Resources */,
 				9621AE3B213754B300647D79 /* Assets.xcassets in Resources */,
 				9621AE39213754B100647D79 /* Main.storyboard in Resources */,
-				966160BA216729D100D3A95E /* Walkthrough.storyboard in Resources */,
 				9651BEE921375F1200E66F0D /* ThemeCategoryViewController.storyboard in Resources */,
 				9621AE662137563D00647D79 /* SignUpViewController.storyboard in Resources */,
 			);
