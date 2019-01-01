@@ -340,7 +340,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -349,7 +349,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Folio-UI-CollectionTests/Pods-Folio-UI-CollectionTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C67E0433C391ADE4A8664937 /* [CP] Check Pods Manifest.lock */ = {
@@ -376,18 +376,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Folio-UI-Collection/Pods-Folio-UI-Collection-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Folio-UI-Collection/Pods-Folio-UI-Collection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Folio-UI-Collection/Pods-Folio-UI-Collection-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Folio-UI-Collection/Pods-Folio-UI-Collection-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
