@@ -3,10 +3,10 @@ import RxSwift
 import RxCocoa
 
 class WalkthroughViewController: UIViewController {
-    @IBOutlet weak var outerScrollView: UIScrollView!
-    @IBOutlet weak var innerScrollView: UIScrollView!
-    @IBOutlet weak var bezelScrollView: UIScrollView!
-    @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet private weak var outerScrollView: UIScrollView!
+    @IBOutlet private weak var innerScrollView: UIScrollView!
+    @IBOutlet private weak var bezelScrollView: UIScrollView!
+    @IBOutlet private weak var pageControl: UIPageControl!
 
     private let disposeBag = DisposeBag()
     
@@ -14,13 +14,14 @@ class WalkthroughViewController: UIViewController {
         super.viewDidLoad()
 
         outerScrollView.contentInsetAdjustmentBehavior = .never
+        bezelScrollView.layer.cornerRadius = 20
 
         outerScrollView.rx.contentOffset
             .subscribe(onNext: { [weak self] in
                 guard let innerScrollView = self?.innerScrollView, let bezelScrollView = self?.bezelScrollView else {
                     return
                 }
-                
+
                 innerScrollView.contentOffset.x = min($0.x, innerScrollView.bounds.width)
 
                 let factor = bezelScrollView.bounds.width / innerScrollView.bounds.width
