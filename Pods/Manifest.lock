@@ -1,4 +1,9 @@
 PODS:
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
   - iOSSnapshotTestCase (4.0.1):
     - iOSSnapshotTestCase/SwiftSupport (= 4.0.1)
   - iOSSnapshotTestCase/Core (4.0.1)
@@ -11,23 +16,26 @@ PODS:
     - RxAtomic (~> 4.4)
 
 DEPENDENCIES:
+  - IGListKit
   - iOSSnapshotTestCase
   - RxCocoa
   - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - IGListKit
     - iOSSnapshotTestCase
     - RxAtomic
     - RxCocoa
     - RxSwift
 
 SPEC CHECKSUMS:
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   iOSSnapshotTestCase: f3b2b7e606fe03fdbe49af84316bd235df32dc44
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
 
-PODFILE CHECKSUM: 72360f4ed5c80ce917de9674faf1bed42f01eaec
+PODFILE CHECKSUM: 0ad9b47ffc9ad7eb2e620f9558a8ce20ca8c3042
 
 COCOAPODS: 1.6.0.beta.1
