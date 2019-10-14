@@ -14,4 +14,4 @@ UI components and live documentation for Folio iOS app
 
 ## Dark Theme
 
-<img src="https://user-images.githubusercontent.com/40610/66786711-52df4f00-ef1c-11e9-83fc-6fa702cb368f.png" width=600px>
+<img src="https://user-images.githubusercontent.com/40610/66788380-54ac1100-ef22-11e9-8c6f-df78819945be.png" width=600px>
